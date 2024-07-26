@@ -1,0 +1,108 @@
+
+/* --- RESPONSIVIDADE --- */
+
+/* --- TABLETS --- */
+@media (max-width: 1300px) {
+    .Corpo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Logo {
+        margin-left: -800px;
+        
+    }
+
+    .Campo_Esquerdo {
+        width: 90%;
+        margin: 2% 0; 
+    }
+
+    .Secao_Direita {
+        width: 90%;
+        margin: 2% 0;
+    }
+
+    .Botoes {
+        flex-direction: row;
+        gap: 15px; 
+        margin-left: -30px;
+        
+    }
+
+    .Text_Area{
+        height: 200px;
+        
+    }
+
+    .Posicao_Copiar {
+        margin-top: 50px;
+    }
+
+    .Imagem_Direita{
+    }
+}
+
+/* --- IPAD MINI --- */
+@media (max-width: 768px) {  
+    .Imagem_Direita {
+        display: none; 
+    }
+
+    .Secao_Direita {
+        margin-top: -55px;
+
+    }
+    
+    .Text_Area {
+        margin-top: -90px;
+    }
+}
+
+/* --- IPAD Air --- */
+@media (max-width: 820px) { 
+    #Logo {
+        margin-left: -600px; 
+        
+    }
+
+
+
+/* --- IPHONE XR --- */
+@media (max-width: 414px) {
+    
+    #Logo {
+        width: 15px;
+        margin-right: -150px;
+        height: 1000px;
+        margin-bottom: -850px;
+    }
+
+    
+    .Text_Area {
+        width: 100%; 
+        font-size: 1.4rem; 
+    }
+
+    
+    .Atencao {
+        width: 100%; 
+        font-size: 0.9rem; 
+        text-align: center; 
+    }
+
+    .Imagem_Direita {
+        display: none;
+    }
+
+    
+    .Secao_Direita {
+        width: 90%; 
+        height: 400px; 
+        margin-left: 0; 
+        padding: 2%; 
+        box-sizing: border-box;
+        width: 90%;
+    }
+}
+}

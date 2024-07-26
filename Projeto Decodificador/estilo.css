@@ -1,0 +1,191 @@
+
+
+/* --- BODY --- */
+:root {
+    --cor-fundo: #f3f5fc; 
+    --cor-digitacao-usuario-e-botao-criptografar: #0A3871;
+    --texto-atencao: #495057;
+    --cor-hover-criptografar: #0a294e;
+    --cor-hover-descriptografar: #a8c9ff;
+    --background-color-campo-direito: rgb(255, 255, 255);
+    --background-color-botao-descriptografar: #b0c6e2;
+    --box-shadow-campo-direito: 10px 10px 30px rgba(107, 107, 107, 0.507);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: Inter, sans-serif;
+}
+
+.Corpo {
+    display: flex;
+    margin-top: 2%;
+    gap: 82px;
+}
+
+.logo {
+    height: 5.5%;
+}
+
+/* --- CAMPO ESQUERDO ---*/
+.Secao_Esquerdo{
+    width: 50%;
+    margin: 3% 0 0 3%;
+    gap: 82px;
+}
+
+.Text_Area{
+    font-family: Inter, sans-serif;
+    font-size: 1.7rem;
+    width: 90%;
+    height: 74vh;
+    padding: 2%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    color: var(--cor-digitacao-usuario-e-botao-criptografar);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    line-height: 1.4;
+    resize: none;
+}
+
+.Atencao {
+    color: var(--texto-atencao);
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    margin: 1% 0 2%;
+}
+
+.Botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Criptografar {
+    font-family: Inter, sans-serif;
+    background-color: var(--cor-digitacao-usuario-e-botao-criptografar);
+    color: #f3f5fc;
+    border-radius: 16px;
+    font-size: 1rem;
+    width: 200px;
+    border-color: var(--cor-digitacao-usuario-e-botao-criptografar);
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 3%;
+}
+
+.Criptografar:hover {
+    background-color: var(--cor-hover-criptografar); 
+}
+
+.Descriptografar{
+    font-family: Inter, sans-serif;
+    color: var(--cor-digitacao-usuario-e-botao-criptografar);
+    background-color: var(--background-color-botao-descriptografar);
+    border-radius: 16px;
+    font-size: 1rem;
+    width: 200px;
+    border-color: var(--cor-digitacao-usuario-e-botao-criptografar);   
+    border-style: groove;
+    padding: 3%;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.Descriptografar:hover {
+    background-color: var(--cor-hover-descriptografar); 
+}
+
+/* --- CAMPO DIREITO ---*/
+
+.Imagem_Direita {
+    width: 50%;
+}
+
+.ocultar-imagem img {
+    display: none;
+}
+
+.Secao_Direita {
+    background-color: white;
+    border-radius: 5%;
+    width: 800px;
+    box-shadow: var(--box-shadow-campo-direito);
+    height: auto; 
+    font-size: 1.2rem;
+    color: #333;
+    padding: 0.8%;
+    box-sizing: border-box;
+    margin: 2rem;
+    margin-left: 5rem;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    flex-direction: column; 
+    max-height: 850px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    padding: 1rem; 
+    box-sizing: border-box;
+}
+
+.Campo_Direito {
+    width: 100%; 
+    padding: 1rem; 
+    box-sizing: border-box;
+}
+
+.Posicao_Copiar {
+    position: sticky;
+    bottom: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo h2 {
+    margin-bottom: 1rem;
+}
+
+.conteudo p {
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+}
+
+
+.Copiar {
+    font-family: Inter, sans-serif;
+    color: var(--cor-digitacao-usuario-e-botao-criptografar);
+    background-color: var(--background-color-campo-direito);
+    border-radius: 16px;
+    font-size: 1rem;
+    width: 75%;
+    border-color: var(--cor-digitacao-usuario-e-botao-criptografar);   
+    border-style: groove;
+    padding: 6% ;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0px 15px rgba(104, 112, 161, 0.712);
+}
+
+.Copiar:hover {
+    background-color: var(--cor-hover-descriptografar); 
+}
+
+

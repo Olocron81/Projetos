@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <main class="Corpo">
+        <!-- Campo Esquerdo do Body -->
+        <div id="Logo">
+            <img src="imagens/image.png" alt="Logo" class="logo" height="50">
+        </div>
+
+        <section class="Secao_Esquerdo">          
+            <!-- Estilizando o Texto "Digite seu texto"-->
+            <div>
+                <textarea class="Text_Area" placeholder="Digite seu texto."></textarea>
+            </div>
+    
+            <!-- Estilizando Atenção -->
+            <div class="Atencao">
+                <p>❗ Escreva com letras minúsculas e sem acento.</p>
+            </div>
+    
+            <!-- Estilizando Botões -->
+            <div class="Botoes">
+                <button class="Criptografar">Criptografar</button>        
+                <button class="Descriptografar">Descriptografar</button>
+                
+            </div>
+        </section>                                                                                     
+        
+        <!-- Campo Direito do Body -->
+        <section class="Secao_Direita">
+            <div class="Campo_Direito">
+                <img class="Imagem_Direita" src="imagens/image2.png" alt="Imagem de uma pessoa com lupa">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que gostaria de criptografar ou descriptografar.</p>
+            </div>
+            <div class="Posicao_Copiar">
+                <button class="Copiar">Copiar</button>
+            </div>
+        </section>       
+    </main> 
+
+    <script 
+        src="script.js">
+        
+    </script>
+</body>
+</html>
