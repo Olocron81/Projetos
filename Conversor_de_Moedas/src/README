@@ -1,0 +1,13 @@
+Conversor de Moeda
+Este projeto é um conversor de moeda que utiliza a API ExchangeRate-API para obter as taxas de câmbio atuais e realizar conversões entre diferentes moedas.
+
+Funcionalidades
+- Obter taxas de câmbio atualizadas de diversas moedas
+- Realizar conversões entre USD e outras moedas, incluindo ARS, BOB, BRL, CLP, e COP
+- Interface de usuário no console para selecionar a moeda e fornecer o valor a ser convertido
+
+Tecnologias Utilizadas
+- Java 11
+- Biblioteca Gson para manipulação de JSON
+- Classe HttpClient para realizar requisições HTTP
+- IntelliJ IDEA para desenvolvimento
